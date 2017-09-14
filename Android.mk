@@ -27,6 +27,7 @@ common_C_INCLUDES += \
 include $(CLEAR_VARS)
 
 LOCAL_MODULE:= libnfnetlink
+LOCAL_PROPRIETARY_MODULE := true
 
 LOCAL_SRC_FILES := $(common_SRC_FILES)
 LOCAL_C_INCLUDES := $(common_C_INCLUDES)
